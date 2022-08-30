@@ -39,7 +39,8 @@
     color:#28384f;  
     margin-bottom: 40px; 
     @extend %roboto-700; 
-    font-size: 48px;
+    font-size: 48px; 
+    line-height: 52px;
    } 
     
    &__text{ 
@@ -74,7 +75,12 @@
    &__filters{ 
     width: 370px; 
     margin-right: 30px;
-   }
+   } 
+    
+   &__filter-btn{ 
+     display: none;
+   } 
+
  }   
   
  .filter{ 
@@ -1156,7 +1162,7 @@
   } 
     
   .comments-form__text-input {
-    width: 380px; 
+    max-width: 570px; 
   } 
    
   &__form-title{ 
@@ -1360,7 +1366,16 @@
 
 }
 
-}
+} 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
 
 @import 'media'; 
  
